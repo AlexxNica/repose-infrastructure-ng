@@ -58,7 +58,7 @@ class repose_influxdb (
       templates            => [
         "gatling.*.*.*.* measurement.measurement.request.status.field",
         "gatling.*.users.*.* measurement.measurement.measurement.request.field",
-        "servers.* ......measurement.class.field",
+        "jmxtrans.* measurement..measurement.field",
       ],
     },
     udp_options            => {
